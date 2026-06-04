@@ -448,4 +448,63 @@ footer p{
         width:100%;
     }
 
+/* NEWSLETTER */
+
+.newsletter-section .card{
+    background:#102235;
+    border:none;
+    color:white;
+}
+
+.newsletter-section .form-control{
+    background:#06101d;
+    border:1px solid #26435d;
+    color:white;
+}
+
+.newsletter-section .form-control:focus{
+    background:#06101d;
+    color:white;
+}
+
+.newsletter-section .btn-primary{
+    background:#0071c5;
+    border:none;
+}
+
+/* ACCORDION */
+
+.accordion{
+    --bs-accordion-bg:#102235;
+    --bs-accordion-color:white;
+    --bs-accordion-btn-bg:#102235;
+    --bs-accordion-btn-color:white;
+    --bs-accordion-active-bg:#18314b;
+    --bs-accordion-active-color:white;
+}
+
+/* FOOTER LINKS */
+
+footer nav{
+    margin-top:20px;
+}
+
+footer nav a{
+    color:#d0dceb;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+footer nav a:hover{
+    color:#4da6ff;
+}
+
+/* RTL */
+
+[dir="rtl"] .nav-links{
+    flex-direction:row-reverse;
+}
+
+[dir="rtl"] .card-content{
+    text-align:right;
 }
