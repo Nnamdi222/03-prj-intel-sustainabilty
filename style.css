@@ -508,3 +508,53 @@ footer nav a:hover{
 [dir="rtl"] .card-content{
     text-align:right;
 }
+/* FAQ SECTION */
+
+#faqAccordion{
+    max-width:900px;
+    margin:0 auto;
+}
+
+.accordion-item{
+    background:#102235;
+    border:1px solid rgba(77,166,255,.25);
+    border-radius:15px !important;
+    overflow:hidden;
+    margin-bottom:15px;
+}
+
+.accordion-button{
+    background:#102235;
+    color:white;
+    font-weight:600;
+    font-size:1.05rem;
+    padding:20px 25px;
+}
+
+.accordion-button:not(.collapsed){
+    background:#18314b;
+    color:#4da6ff;
+    box-shadow:none;
+}
+
+.accordion-button:focus{
+    box-shadow:none;
+    border:none;
+}
+
+.accordion-body{
+    background:#0d1b2a;
+    color:#d0dceb;
+    line-height:1.8;
+    padding:25px;
+}
+
+/* Make arrow visible on dark background */
+
+.accordion-button::after{
+    filter:brightness(0) invert(1);
+}
+
+.accordion-button:not(.collapsed)::after{
+    filter:none;
+}
